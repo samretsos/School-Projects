@@ -1,0 +1,8 @@
+README
+K-Means for Watermarking Project
+Put this IPYNB file into VSCode or a similar software
+Python 3.x, NumPy, Matplotlib, and Pillow (PIL) are required to run this code!
+if you do not have these libraries please use the following pip:
+pip install numpy matplotlib pillow
+
+If these instructions are followed properly, you should be able to run the code and the images will appear underneath!
