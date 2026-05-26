@@ -16,8 +16,5 @@ Uses MATLAB and Self-Organizing Maps (SOM) to perform image compression on a mam
 **Lab 9**
 Builds a simple HTML user registration form featuring common input types (text, email, password, date, radio buttons, checkboxes, dropdown, and textarea) to demonstrate basic frontend form structure and validation.
 
-**Lab 2**
-Implements signal unmixing using ICA (FastICA) to separate mixed audio sources into their independent components. The method successfully recovers the underlying signals (speech, sirens, and music), though some outputs are time-distorted or slightly overlapping, affecting clarity in certain cases.
-
 **KMeans**
 Implements a K-Means based image compression and watermarking pipeline in Python, where images are split into 16×16 blocks, clustered using custom K-Means, and reconstructed from learned centroids. The project also generates a difference image, applies a secondary clustering step, and embeds a binary watermark using permutation and XOR-based encoding with local variance features.
