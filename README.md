@@ -1,20 +1,133 @@
-# School-Projects
-Repository of old college projects.
+# School Projects
 
-**RK.py**
-Implements a general Runge–Kutta solver in Python to numerically solve ODEs and analyze error/convergence behavior against exact solutions. Also includes stability region visualizations and comparisons between RK4 and a Chebyshev-based method under varying step sizes.
+Collection of projects focused on machine learning, numerical methods, image processing, and software engineering concepts developed through coursework and independent experimentation.
 
-**FaceRecLabRetsos.zip**
-Explores an eigenfaces-based face recognition pipeline by varying the number of principal components and measuring identification accuracy. Projects face data into PCA space, performs nearest-neighbor matching, and visualizes how recognition performance changes as the number of eigenvectors increases.
+## Technologies Used
 
-**Lab5Retsos.zip**
-Implements a multi-layer perceptron from scratch, including forward/backpropagation and gradient descent training, to evaluate classification performance across different network configurations. Experiments show that architecture changes have minimal impact on accuracy, while learning rate significantly affects convergence and overall performance.
+- Python
+- MATLAB
+- NumPy
+- PyTorch
+- HTML/CSS
+- Machine Learning
+- Neural Networks
+- Image Processing
+- Numerical Analysis
+- Data Visualization
 
-**Lab4MiniRetsos.zip**
-Uses MATLAB and Self-Organizing Maps (SOM) to perform image compression on a mammogram dataset by preprocessing images into normalized 32×32 blocks and training the SOM on these representations to learn compact encodings.
+---
 
-**Lab 9**
-Builds a simple HTML user registration form featuring common input types (text, email, password, date, radio buttons, checkboxes, dropdown, and textarea) to demonstrate basic frontend form structure and validation.
+# Projects
 
-**KMeans**
-Implements a K-Means based image compression and watermarking pipeline in Python, where images are split into 16×16 blocks, clustered using custom K-Means, and reconstructed from learned centroids. The project also generates a difference image, applies a secondary clustering step, and embeds a binary watermark using permutation and XOR-based encoding with local variance features.
+## RK.py
+
+Implementation of numerical methods for solving ordinary differential equations using Runge-Kutta techniques. The project analyzes convergence behavior, numerical stability, and approximation error compared to analytical solutions.
+
+### Key Concepts
+- Runge-Kutta methods
+- Numerical approximation
+- Error analysis
+- Convergence behavior
+- Differential equations
+- Stability regions
+
+### Highlights
+- Implemented generalized RK solvers
+- Compared exact and approximate solutions
+- Evaluated convergence and truncation error
+- Visualized numerical behavior using plots
+
+---
+
+## KMeans
+
+Custom image compression and watermarking pipeline using K-Means clustering. Images are partitioned into blocks, compressed through centroid approximation, and reconstructed while preserving visual fidelity.
+
+### Key Concepts
+- K-Means clustering
+- Image compression
+- Feature extraction
+- Image reconstruction
+- Watermark embedding
+- Variance analysis
+
+### Highlights
+- Implemented clustering from scratch
+- Reduced image storage requirements through centroid compression
+- Embedded watermarking using permutation and XOR encoding
+- Evaluated reconstruction quality and compression tradeoffs
+
+---
+
+## Lab5Retsos
+
+Implementation of a Multi-Layer Perceptron (MLP) neural network from scratch using forward propagation, backpropagation, and gradient descent training techniques.
+
+### Key Concepts
+- Neural networks
+- Forward propagation
+- Backpropagation
+- Gradient descent
+- Hyperparameter tuning
+- Classification
+
+### Highlights
+- Built neural network architecture manually without high-level frameworks
+- Trained and evaluated classification performance
+- Analyzed effects of learning rate and architecture changes
+- Explored convergence behavior and model accuracy
+
+---
+
+## FaceRecLab
+
+Facial recognition system using Principal Component Analysis (PCA) and Eigenfaces for dimensionality reduction and classification.
+
+### Key Concepts
+- Principal Component Analysis (PCA)
+- Eigenfaces
+- Dimensionality reduction
+- Computer vision
+- Feature extraction
+- Nearest-neighbor classification
+
+### Highlights
+- Reduced high-dimensional facial image data using PCA
+- Generated eigenface representations
+- Performed facial classification using extracted features
+- Evaluated recognition performance across datasets
+
+---
+
+## SOM Compression
+
+Implementation of Self-Organizing Maps (SOMs) for image compression and unsupervised feature learning.
+
+### Key Concepts
+- Self-Organizing Maps
+- Unsupervised learning
+- Clustering
+- Dimensionality reduction
+- Image compression
+
+### Highlights
+- Implemented SOM-based compression pipeline
+- Visualized neuron organization and feature mapping
+- Compared compression quality against alternative methods
+
+---
+
+## Web Development Projects
+
+Frontend-focused coursework projects involving HTML, CSS, and interactive webpage design.
+
+### Key Concepts
+- Frontend development
+- Responsive design
+- UI/UX principles
+- HTML/CSS structure
+
+### Highlights
+- Built responsive webpage layouts
+- Applied styling and user interaction principles
+- Developed foundational frontend engineering skills
